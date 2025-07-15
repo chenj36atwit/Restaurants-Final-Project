@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeepGoingMcDonald!</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        ul#navcontent {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #ff6600;
+            overflow: hidden;
+        }
+
+        ul#navcontent li {
+            float: left;
+        }
+
+        ul#navcontent li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        ul#navcontent li a:hover {
+            background-color: #111;
+        }
+
+        .intro-section {
+            background-image: url('https://www.thevintagenews.com/wp-content/uploads/sites/65/2021/09/mcdonalds-featured-image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px black;
+            text-align: center;
+        }
+
+        .intro-section h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .intro-section button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #ff6600;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            color: white;
+            margin-top: 20px;
+        }
+
+        .intro-section button:hover {
+            background-color: #e65c00;
+        }
+
+        #about {
+            background-color: #fffbf0;
+            border: 1px solid #ff6600;
+            padding: 15px;
+            margin: 20px;
+            border-radius: 5px;
+        }
+
+        #menu {
+            background-color: white;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .simple-box {
+            border: 2px solid #ff6600;
+            padding: 10px;
+            margin: 10px;
+            background-color: #fff8f0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul id="navcontent">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="Login.html">Login</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="intro-section">
+            <h1>Welcome to KeepGoingMcDonald!</h1>
+            <button onclick="location.href='Burger&Wings.html'">Start Ordering</button>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <article class="simple-box">
+                <p>Welcome to <strong>KeepGoingMcDonald!</strong> — We believe that some McDonald's menu items were too good to be discontinued. Our mission is to recreate these lost classics and give food lovers a chance to taste nostalgia.</p>
+                <blockquote>
+                    <em>"Bringing back the classics you miss most"</em>
+                </blockquote>
+            </article>
+            <aside>
+                <small>📍 These items were discontinued but not forgotten!</small>
+            </aside>
+        </section>
+
+    <!-- Menu Section -->
+    <div id="menu">
+        <h2>Our Menu</h2>
+        <h3>Burger & Wings</h3>
+         <figure>
+          <img src="https://static.wikia.nocookie.net/ronaldmcdonald/images/0/0d/Hula_Burger.jpg/revision/latest?cb=20180421050223" alt="Hula Burger" width="100" alt="Hula Burger">
+          <figcaption><mark>Hula Burger</mark> - A tropical twist!</figcaption>
+        </figure>
+        <p>Hula Burger</p>
+        <p>Snack Wrap</p>
+        <p>Arch Deluxe</p>
+        <p>Big & Tasty</p>
+        <p>Grilled Onion White Cheddar Burger</p>
+        <h3>Salad</h3>
+        <p>McSalad Shakers</p>
+        <p>SouthWest Salad</p>
+        <h3>Drinks</h3>
+        <figure>
+         <img src="https://s7d1.scene7.com/is/image/mcdonalds/DC_202012_0621_MediumHi-COrange_1564x1564-1:product-header-mobile?wid=1313&hei=1313&dpr=off" width="100" alt="Orange Hi-C">
+            <figcaption><mark>Orange Hi-C</mark> - Refreshing classic drink</figcaption>
+            </figure>
+        <p>Orange Hi-C</p>
+        <h3>Desserts</h3>
+        <figure>
+         <img src="https://static.wikia.nocookie.net/ronaldmcdonald/images/a/af/Cinnamon_Melts.png/revision/latest?cb=20160218093238" width="100" alt="Cinnamon Melt">
+        <figcaption><mark>Cinnamon Melt</mark> - Sweet cinnamon delight</figcaption>
+       </figure>
+        <p>Cinnamon Melt</p>
+        <p>Yogurt Parfait</p>
+    </div>
+ <footer>
+    <small>Cloud Computing System Class</small>
+    </footer>
+
+    <cite>Source: McDonald's Wiki - Fandom</cite>
+
+</body>
+</html>
